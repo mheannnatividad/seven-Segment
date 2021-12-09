@@ -175,6 +175,160 @@ namespace _7_Segment
                 button9sec.PerformClick();
             }
 
+            int mns = Convert.ToInt32(DateTime.Now.ToString("mm").Substring(DateTime.Now.ToString("mm").Length - 1));
+            if (mns == 1)
+            {
+                button15mns.BackColor = System.Drawing.Color.Black;
+                button18mns.BackColor = System.Drawing.Color.Black;
+                button19mns.BackColor = System.Drawing.Color.Black;
+                button20mns.BackColor = System.Drawing.Color.Black;
+                button16mns.PerformClick();
+                button17mns.PerformClick();
+            }
+            if (mns == 2)
+            {
+                button17mns.BackColor = System.Drawing.Color.Black;
+                button15mns.PerformClick();
+                button16mns.PerformClick();
+                button21mns.PerformClick();
+                button19mns.PerformClick();
+                button18mns.PerformClick();
+            }
+            if (mns == 3)
+            {
+                button19mns.BackColor = System.Drawing.Color.Black;
+                button15mns.PerformClick();
+                button16mns.PerformClick();
+                button21mns.PerformClick();
+                button17mns.PerformClick();
+                button18mns.PerformClick();
+            }
+            if (mns == 4)
+            {
+                button15mns.BackColor = System.Drawing.Color.Black;
+                button18mns.BackColor = System.Drawing.Color.Black;
+                button20mns.PerformClick();
+                button21mns.PerformClick();
+                button16mns.PerformClick();
+                button17mns.PerformClick();
+            }
+            if (mns == 5)
+            {
+                button16mns.BackColor = System.Drawing.Color.Black;
+                button15mns.PerformClick();
+                button20mns.PerformClick();
+                button21mns.PerformClick();
+                button17mns.PerformClick();
+                button18mns.PerformClick();
+            }
+            if (mns == 6)
+            {
+                button15mns.PerformClick();
+                button20mns.PerformClick();
+                button21mns.PerformClick();
+                button17mns.PerformClick();
+                button18mns.PerformClick();
+                button19mns.PerformClick();
+
+            }
+            if (mns == 7)
+            {
+                button20mns.BackColor = System.Drawing.Color.Black;
+                button19mns.BackColor = System.Drawing.Color.Black;
+                button21mns.BackColor = System.Drawing.Color.Black;
+                button18mns.BackColor = System.Drawing.Color.Black;
+                button15mns.PerformClick();
+                button16mns.PerformClick();
+                button17mns.PerformClick();
+            }
+            if (mns == 8)
+            {
+                button15mns.PerformClick();
+                button20mns.PerformClick();
+                button21mns.PerformClick();
+                button17mns.PerformClick();
+                button18mns.PerformClick();
+                button19mns.PerformClick();
+                button16mns.PerformClick();
+            }
+            if (mns == 9)
+            {
+                button19mns.BackColor = System.Drawing.Color.Black;
+                button15mns.PerformClick();
+                button20mns.PerformClick();
+                button21mns.PerformClick();
+                button17mns.PerformClick();
+                button18mns.PerformClick();
+                button16mns.PerformClick();
+
+            }
+            if (mns == 0)
+            {
+                button21mns.BackColor = System.Drawing.Color.Black;
+                button15mns.PerformClick();
+                button20mns.PerformClick();
+                button17mns.PerformClick();
+                button18mns.PerformClick();
+                button19mns.PerformClick();
+                button16mns.PerformClick();
+            }
+
+            int mns1 = Convert.ToInt32(DateTime.Now.ToString("mm").Substring(0, 1));
+            if (mns1 == 1)
+            {
+                button22mns.BackColor = System.Drawing.Color.Black;
+                button25mns.BackColor = System.Drawing.Color.Black;
+                button26mns.BackColor = System.Drawing.Color.Black;
+                button27mns.BackColor = System.Drawing.Color.Black;
+                button23mns.PerformClick();
+                button24mns.PerformClick();
+            }
+            if (mns1 == 2)
+            {
+                button24mns.BackColor = System.Drawing.Color.Black;
+                button22mns.PerformClick();
+                button23mns.PerformClick();
+                button28mns.PerformClick();
+                button26mns.PerformClick();
+                button25mns.PerformClick();
+            }
+            if (mns1 == 3)
+            {
+                button26mns.BackColor = System.Drawing.Color.Black;
+                button22mns.PerformClick();
+                button23mns.PerformClick();
+                button28mns.PerformClick();
+                button24mns.PerformClick();
+                button25mns.PerformClick();
+            }
+            if (mns1 == 4)
+            {
+                button22mns.BackColor = System.Drawing.Color.Black;
+                button25mns.BackColor = System.Drawing.Color.Black;
+                button27mns.PerformClick();
+                button28mns.PerformClick();
+                button23mns.PerformClick();
+                button24mns.PerformClick();
+            }
+            if (mns1 == 5)
+            {
+                button23mns.BackColor = System.Drawing.Color.Black;
+                button22mns.PerformClick();
+                button27mns.PerformClick();
+                button28mns.PerformClick();
+                button24mns.PerformClick();
+                button25mns.PerformClick();
+            }
+            if (mns1 == 0)
+            {
+                button28mns.BackColor = System.Drawing.Color.Black;
+                button22mns.PerformClick();
+                button27mns.PerformClick();
+                button24mns.PerformClick();
+                button25mns.PerformClick();
+                button26mns.PerformClick();
+                button23mns.PerformClick();
+            }
 
 
         }

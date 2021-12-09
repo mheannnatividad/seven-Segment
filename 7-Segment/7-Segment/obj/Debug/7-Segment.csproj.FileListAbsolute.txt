@@ -8,3 +8,13 @@ C:\Users\Computer\Desktop\OOP\7-Segment\7-Segment\obj\Debug\7-Segment.csproj.Gen
 C:\Users\Computer\Desktop\OOP\7-Segment\7-Segment\obj\Debug\7-Segment.csproj.CoreCompileInputs.cache
 C:\Users\Computer\Desktop\OOP\7-Segment\7-Segment\obj\Debug\7-Segment.exe
 C:\Users\Computer\Desktop\OOP\7-Segment\7-Segment\obj\Debug\7-Segment.pdb
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\bin\Debug\7-Segment.exe.config
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\bin\Debug\7-Segment.exe
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\bin\Debug\7-Segment.pdb
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\obj\Debug\7-Segment.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\obj\Debug\_7_Segment.Form1.resources
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\obj\Debug\_7_Segment.Properties.Resources.resources
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\obj\Debug\7-Segment.csproj.GenerateResource.cache
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\obj\Debug\7-Segment.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\obj\Debug\7-Segment.exe
+C:\Users\Computer\Desktop\OOP\seven-Segment\7-Segment\7-Segment\obj\Debug\7-Segment.pdb
