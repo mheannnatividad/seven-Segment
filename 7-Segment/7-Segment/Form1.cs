@@ -20,6 +20,7 @@ namespace _7_Segment
         private void timer1_Tick(object sender, EventArgs e)
         {
             int sec = Convert.ToInt32(DateTime.Now.ToString("ss").Substring(DateTime.Now.ToString("ss").Length-1));
+
             if (sec == 1)
             {
                 button1sec.BackColor = System.Drawing.Color.Black;
@@ -104,7 +105,6 @@ namespace _7_Segment
                 button3sec.PerformClick();
                 button4sec.PerformClick();
                 button2sec.PerformClick();
-
             }
             if (sec == 0)
             {
@@ -176,6 +176,7 @@ namespace _7_Segment
             }
 
             int mns = Convert.ToInt32(DateTime.Now.ToString("mm").Substring(DateTime.Now.ToString("mm").Length - 1));
+
             if (mns == 1)
             {
                 button15mns.BackColor = System.Drawing.Color.Black;
@@ -229,7 +230,6 @@ namespace _7_Segment
                 button17mns.PerformClick();
                 button18mns.PerformClick();
                 button19mns.PerformClick();
-
             }
             if (mns == 7)
             {
@@ -260,7 +260,6 @@ namespace _7_Segment
                 button17mns.PerformClick();
                 button18mns.PerformClick();
                 button16mns.PerformClick();
-
             }
             if (mns == 0)
             {
@@ -274,6 +273,7 @@ namespace _7_Segment
             }
 
             int mns1 = Convert.ToInt32(DateTime.Now.ToString("mm").Substring(0, 1));
+
             if (mns1 == 1)
             {
                 button22mns.BackColor = System.Drawing.Color.Black;
@@ -330,7 +330,160 @@ namespace _7_Segment
                 button23mns.PerformClick();
             }
 
+            int hrs = Convert.ToInt32(DateTime.Now.ToString("hh").Substring(DateTime.Now.ToString("hh").Length - 1));
 
+            if (hrs == 1)
+            {
+                button29hrs.BackColor = System.Drawing.Color.Black;
+                button32hrs.BackColor = System.Drawing.Color.Black;
+                button33hrs.BackColor = System.Drawing.Color.Black;
+                button34hrs.BackColor = System.Drawing.Color.Black;
+                button30hrs.PerformClick();
+                button31hrs.PerformClick();
+            }
+            if (hrs == 2)
+            {
+                button31hrs.BackColor = System.Drawing.Color.Black;
+                button29hrs.PerformClick();
+                button30hrs.PerformClick();
+                button35hrs.PerformClick();
+                button33hrs.PerformClick();
+                button32hrs.PerformClick();
+            }
+            if (hrs == 3)
+            {
+                button33hrs.BackColor = System.Drawing.Color.Black;
+                button29hrs.PerformClick();
+                button30hrs.PerformClick();
+                button35hrs.PerformClick();
+                button31hrs.PerformClick();
+                button32hrs.PerformClick();
+            }
+            if (hrs == 4)
+            {
+                button29hrs.BackColor = System.Drawing.Color.Black;
+                button32hrs.BackColor = System.Drawing.Color.Black;
+                button34hrs.PerformClick();
+                button35hrs.PerformClick();
+                button30hrs.PerformClick();
+                button31hrs.PerformClick();
+            }
+            if (hrs == 5)
+            {
+                button30hrs.BackColor = System.Drawing.Color.Black;
+                button29hrs.PerformClick();
+                button34hrs.PerformClick();
+                button35hrs.PerformClick();
+                button31hrs.PerformClick();
+                button32hrs.PerformClick();
+            }
+            if (hrs == 6)
+            {
+                button29hrs.PerformClick();
+                button34hrs.PerformClick();
+                button35hrs.PerformClick();
+                button31hrs.PerformClick();
+                button32hrs.PerformClick();
+                button33hrs.PerformClick();
+            }
+            if (hrs == 7)
+            {
+                button34hrs.BackColor = System.Drawing.Color.Black;
+                button33hrs.BackColor = System.Drawing.Color.Black;
+                button35hrs.BackColor = System.Drawing.Color.Black;
+                button32hrs.BackColor = System.Drawing.Color.Black;
+                button29hrs.PerformClick();
+                button30hrs.PerformClick();
+                button31hrs.PerformClick();
+            }
+            if (hrs == 8)
+            {
+                button29hrs.PerformClick();
+                button34hrs.PerformClick();
+                button35hrs.PerformClick();
+                button31hrs.PerformClick();
+                button32hrs.PerformClick();
+                button33hrs.PerformClick();
+                button30hrs.PerformClick();
+            }
+            if (hrs == 9)
+            {
+                button33hrs.BackColor = System.Drawing.Color.Black;
+                button29hrs.PerformClick();
+                button34hrs.PerformClick();
+                button35hrs.PerformClick();
+                button31hrs.PerformClick();
+                button32hrs.PerformClick();
+                button30hrs.PerformClick();
+            }
+            if (hrs == 0)
+            {
+                button35hrs.BackColor = System.Drawing.Color.Black;
+                button29hrs.PerformClick();
+                button34hrs.PerformClick();
+                button31hrs.PerformClick();
+                button32hrs.PerformClick();
+                button33hrs.PerformClick();
+                button30hrs.PerformClick();
+            }
+
+            int hrs1 = Convert.ToInt32(DateTime.Now.ToString("hh").Substring(0, 1));
+
+            if (hrs1 == 1)
+            {
+                button36hrs.BackColor = System.Drawing.Color.Black;
+                button39hrs.BackColor = System.Drawing.Color.Black;
+                button40hrs.BackColor = System.Drawing.Color.Black;
+                button41hrs.BackColor = System.Drawing.Color.Black;
+                button37hrs.PerformClick();
+                button38hrs.PerformClick();
+            }
+            if (hrs1 == 2)
+            {
+                button38hrs.BackColor = System.Drawing.Color.Black;
+                button36hrs.PerformClick();
+                button37hrs.PerformClick();
+                button42hrs.PerformClick();
+                button40hrs.PerformClick();
+                button39hrs.PerformClick();
+            }
+            if (hrs1 == 3)
+            {
+                button40hrs.BackColor = System.Drawing.Color.Black;
+                button36hrs.PerformClick();
+                button37hrs.PerformClick();
+                button42hrs.PerformClick();
+                button38hrs.PerformClick();
+                button39hrs.PerformClick();
+            }
+            if (hrs1 == 4)
+            {
+                button36hrs.BackColor = System.Drawing.Color.Black;
+                button39hrs.BackColor = System.Drawing.Color.Black;
+                button41hrs.PerformClick();
+                button42hrs.PerformClick();
+                button37hrs.PerformClick();
+                button38hrs.PerformClick();
+            }
+            if (hrs1 == 5)
+            {
+                button37hrs.BackColor = System.Drawing.Color.Black;
+                button36hrs.PerformClick();
+                button41hrs.PerformClick();
+                button42hrs.PerformClick();
+                button38hrs.PerformClick();
+                button39hrs.PerformClick();
+            }
+            if (hrs1 == 0)
+            {
+                button42hrs.BackColor = System.Drawing.Color.Black;
+                button36hrs.PerformClick();
+                button41hrs.PerformClick();
+                button38hrs.PerformClick();
+                button39hrs.PerformClick();
+                button40hrs.PerformClick();
+                button37hrs.PerformClick();
+            }
         }
 
         private void all(object sender, EventArgs e)
@@ -342,6 +495,11 @@ namespace _7_Segment
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+           label5.Text=DateTime.Now.ToString("tt");
         }
     }
 }
