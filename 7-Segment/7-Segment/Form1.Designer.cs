@@ -180,17 +180,17 @@ namespace _7_Segment
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1098, 299);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(1078, 299);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 39);
+            this.label5.Size = new System.Drawing.Size(69, 39);
             this.label5.TabIndex = 56;
             this.label5.Text = "AM";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.Blue;
+            this.label4.BackColor = System.Drawing.Color.Red;
             this.label4.Location = new System.Drawing.Point(731, 263);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(30, 31);
@@ -198,7 +198,7 @@ namespace _7_Segment
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.Blue;
+            this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(731, 178);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(30, 31);
@@ -206,7 +206,7 @@ namespace _7_Segment
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Blue;
+            this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(368, 263);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 31);
@@ -214,7 +214,7 @@ namespace _7_Segment
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.Blue;
+            this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(368, 178);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 31);

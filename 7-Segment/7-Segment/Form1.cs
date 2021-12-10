@@ -15,6 +15,7 @@ namespace _7_Segment
         public Form1()
         {
             InitializeComponent();
+            label5.Text = DateTime.Now.ToString("tt");
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -499,7 +500,7 @@ namespace _7_Segment
 
         private void label5_Click(object sender, EventArgs e)
         {
-           label5.Text=DateTime.Now.ToString("tt");
+           label5.Text = DateTime.Now.ToString("tt");
         }
     }
 }
